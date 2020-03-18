@@ -37,7 +37,7 @@ class test_Romain(unittest.TestCase):
     def test_renvoie_M(self):
        self.assertEqual("M", romain(1000))
 
-    #def test_renvoie_IV(self):
-    #   self.assertEqual("IV", romain(4))
+    def test_renvoie_IV(self):
+       self.assertEqual("IV", romain(4))
 
 unittest.main()
