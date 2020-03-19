@@ -1,6 +1,3 @@
 def presentation(age, nom, genre):
-    if genre == "H":
-        genre = "un homme"
-    elif genre == "F":
-        genre = "une femme"
+    genre = "une femme" if genre == "F" else "un homme"
     return "Bonjour, je suis {}, je m'appelle {} et j'ai {} ans.".format(genre, nom, age)
